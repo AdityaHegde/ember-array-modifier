@@ -1,12 +1,14 @@
 {
   "name": "ember-array-modifier",
   "description": "Array modifier module for Ember.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "options": {
     "paths": [
       "addon"
     ],
     "exclude": "vendor",
-    "outdir": "docs"
+    "outdir": "docs",
+    "themedir": "node_modules/yuidoc-bootstrap-theme",
+    "helpers": ["node_modules/yuidoc-bootstrap-theme/helpers/helpers.js"]
   }
 }

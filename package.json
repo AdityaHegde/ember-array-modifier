@@ -1,6 +1,6 @@
 {
   "name": "ember-array-modifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array modifier module for Ember.",
   "directories": {
     "doc": "doc",
@@ -29,6 +29,7 @@
     "ember-cli-qunit": "0.3.13",
     "ember-cli-uglify": "^1.0.1",
     "ember-cli-yuidoc": "0.7.0",
+    "yuidoc-bootstrap-theme": "*",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
     "ember-disable-prototype-extensions": "^1.0.0",
@@ -37,7 +38,11 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "array",
+    "sort",
+    "filter",
+    "search"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
