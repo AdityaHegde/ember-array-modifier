@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>addon/array-modifier-groups/ArrayModifierGroup.js - ember-array-modifier</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+</head>
+<body class="yui3-skin-sam">
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <h1 class="brand" style="padding: 10px 16px 10px; height: 20px; line-height: 20px; margin-left: 0;">
+	    <img alt="ember-array-modifier" src="../assets/css/logo.png" style="max-height: 65%;" title="ember-array-modifier">
+            ember-array-modifier
+        </h1>
+	<div class="nav">
+            <li class="divider-vertical"></li>
+            <li>
+                <p class="navbar-text">
+                    API Docs for Version: <b>1.0.1.eeba1ec6</b>
+                </p>
+            </li>
+        </div>
+        <form class="navbar-form pull-right" style="line-height: 40px; height: 40px;">
+            <input style="margin-top: 0;" type="text" class="search-query" placeholder="Search for classes/modules..." data-obj='["classes/ArrayModifier.ArrayFilterGroup", "classes/ArrayModifier.ArrayFilterModifier", "classes/ArrayModifier.ArrayModifier", "classes/ArrayModifier.ArrayModifierGroup", "classes/ArrayModifier.ArrayModifierMixin", "classes/ArrayModifier.ArraySearchModifier", "classes/ArrayModifier.ArraySortGroup", "classes/ArrayModifier.ArraySortModifier", "classes/ArrayModifier.ArrayTagSearchModifier", "classes/ArrayModifier.TagObject", "modules/ember-array-modifier", "modules/ember-array-modifier-groups", "modules/ember-array-modifier-types"]'>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="span3">
+	    <div>
+	        <h3>APIs</h3>
+	        <div id="sidebar">
+	            <ul id="main-nav" class="nav nav-tabs" style="margin-bottom:0;">
+	                <li class="active"><a href="#classes" data-toggle="tab">Classes</a></li>
+	                <li><a href="#modules" data-toggle="tab">Modules</a></li>
+	            </ul>
+	    
+	            <div id="api-tabview-filter">
+	                <input type="search" placeholder="Type to filter APIs">
+	            </div>
+	    
+	            <div class="tab-content" style="border: 1px solid #DDD; border-top:0;">
+	                <div class="tab-pane active" id="classes">
+	                    <ul id="api-classes" class="nav nav-list">
+	                            <li><a href="../classes/ArrayModifier.ArrayFilterGroup.html">ArrayModifier.ArrayFilterGroup</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArrayFilterModifier.html">ArrayModifier.ArrayFilterModifier</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArrayModifier.html">ArrayModifier.ArrayModifier</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArrayModifierGroup.html">ArrayModifier.ArrayModifierGroup</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArrayModifierMixin.html">ArrayModifier.ArrayModifierMixin</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArraySearchModifier.html">ArrayModifier.ArraySearchModifier</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArraySortGroup.html">ArrayModifier.ArraySortGroup</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArraySortModifier.html">ArrayModifier.ArraySortModifier</a></li>
+	                            <li><a href="../classes/ArrayModifier.ArrayTagSearchModifier.html">ArrayModifier.ArrayTagSearchModifier</a></li>
+	                            <li><a href="../classes/ArrayModifier.TagObject.html">ArrayModifier.TagObject</a></li>
+	                    </ul>
+	                </div>
+	    
+	                <div class="tab-pane" id="modules">
+	                    <ul id="api-modules" class="nav nav-list">
+	                            <li><a href="../modules/ember-array-modifier.html">ember-array-modifier</a></li>
+	                            <li><a href="../modules/ember-array-modifier-groups.html">ember-array-modifier-groups</a></li>
+	                            <li><a href="../modules/ember-array-modifier-types.html">ember-array-modifier-types</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+        </div>
+        <div class="span9">
+                <form id="options-form" class="form-inline pull-right">
+                    Show:
+                    <label for="api-show-inherited" class="checkbox">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected" class="checkbox">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private" class="checkbox">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated" class="checkbox">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </form>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <div class="page-header">
+                            <h1>addon/array-modifier-groups/ArrayModifierGroup.js <small>File</small></h1>
+                        </div>
+                        
+                        <div class="file">
+                            <pre class="prettyprint linenums">
+                        import Ember from &quot;ember&quot;;
+                        import ArrayModifierTypes from &quot;../array-modifier-types/index&quot;;
+                        import EmberObjectUtils from &quot;ember-object-utils&quot;;
+                        
+                        /** 
+                         * Basic array modifier group.
+                         *
+                         * @class ArrayModifier.ArrayModifierGroup
+                         * @module ember-array-modifier
+                         * @submodule ember-array-modifier-groups
+                         */
+                        export default Ember.Object.extend(EmberObjectUtils.ObjectWithArrayMixin, {
+                          type : &quot;basic&quot;,
+                        
+                          /**
+                           * Array modifiers present in the group. Use object while creating.
+                           *
+                           * @property arrayModifiers
+                           * @type Array
+                           */
+                          arrayModifiers : EmberObjectUtils.hasMany(ArrayModifierTypes.ArrayModifiersMap, &quot;type&quot;),
+                        
+                          arrayProps : [&#x27;arrayModifiers&#x27;],
+                          /**
+                           * Priority to run this modifier group
+                           *
+                           * @property priority
+                           * @type Number
+                           * @default 5
+                           */
+                          priority : 5,
+                          idx : 0,
+                        
+                          /**
+                           * Method that returns whether an item can be added or not.
+                           *
+                           * @method canAdd
+                           * @param {Class} item Item that is to be checked whether it can be added or not.
+                           * @return {Boolean}
+                           */
+                          canAdd : function(/*item*/) {
+                            return true;
+                          },
+                        
+                          /**
+                           * Method called to modify an entire array.
+                           *
+                           * @method modify
+                           * @param {Array} array The array to modify.
+                           */
+                          modify : function(array) {
+                            var arrayModifiers = this.get(&quot;arrayModifiers&quot;);
+                            for(var i = 0; i &lt; arrayModifiers.length; i++) {
+                              array = arrayModifiers[i].modify(array);
+                            }
+                            return array;
+                          },
+                        });
+                        
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/jquery/jquery-1.8.2.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script src="../assets/js/yuidoc-bootstrap.js"></script>
+<script>prettyPrint();</script>
+</body>
+</html>

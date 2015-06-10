@@ -1,0 +1,1053 @@
+{
+    "project": {
+        "name": "ember-array-modifier",
+        "description": "Array modifier module for Ember.",
+        "version": "1.0.1.eeba1ec6"
+    },
+    "files": {
+        "addon/array-modifier-groups/ArrayFilterGroup.js": {
+            "name": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArrayFilterGroup": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-groups/ArrayModifierGroup.js": {
+            "name": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArrayModifierGroup": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-groups/ArraySortGroup.js": {
+            "name": "addon/array-modifier-groups/ArraySortGroup.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArraySortGroup": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-groups/index.js": {
+            "name": "addon/array-modifier-groups/index.js",
+            "modules": {
+                "ember-array-modifier-groups": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/ArrayFilterModifier.js": {
+            "name": "addon/array-modifier-types/ArrayFilterModifier.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArrayFilterModifier": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/ArrayModifier.js": {
+            "name": "addon/array-modifier-types/ArrayModifier.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArrayModifier": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/ArraySearchModifier.js": {
+            "name": "addon/array-modifier-types/ArraySearchModifier.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArraySearchModifier": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/ArraySortModifier.js": {
+            "name": "addon/array-modifier-types/ArraySortModifier.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArraySortModifier": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/ArrayTagSearchModifier.js": {
+            "name": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.TagObject": 1,
+                "ArrayModifier.ArrayTagSearchModifier": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/array-modifier-types/index.js": {
+            "name": "addon/array-modifier-types/index.js",
+            "modules": {
+                "ember-array-modifier-types": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/ArrayModifierMixin.js": {
+            "name": "addon/ArrayModifierMixin.js",
+            "modules": {},
+            "classes": {
+                "ArrayModifier.ArrayModifierMixin": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/index.js": {
+            "name": "addon/index.js",
+            "modules": {
+                "ember-array-modifier": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "ember-array-modifier": {
+            "name": "ember-array-modifier",
+            "submodules": {
+                "ember-array-modifier-groups": 1,
+                "ember-array-modifier-types": 1
+            },
+            "classes": {
+                "ArrayModifier.ArrayFilterGroup": 1,
+                "ArrayModifier.ArrayModifierGroup": 1,
+                "ArrayModifier.ArraySortGroup": 1,
+                "ArrayModifier.ArrayFilterModifier": 1,
+                "ArrayModifier.ArrayModifier": 1,
+                "ArrayModifier.ArraySearchModifier": 1,
+                "ArrayModifier.ArraySortModifier": 1,
+                "ArrayModifier.TagObject": 1,
+                "ArrayModifier.ArrayTagSearchModifier": 1,
+                "ArrayModifier.ArrayModifierMixin": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "addon/ArrayModifierMixin.js",
+            "line": 8,
+            "description": "Module to handle array modification like sorting, searching and filtering."
+        },
+        "ember-array-modifier-groups": {
+            "name": "ember-array-modifier-groups",
+            "submodules": {},
+            "classes": {
+                "ArrayModifier.ArrayFilterGroup": 1,
+                "ArrayModifier.ArrayModifierGroup": 1,
+                "ArrayModifier.ArraySortGroup": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 6,
+            "description": "Module to handle array modification like sorting, searching and filtering."
+        },
+        "ember-array-modifier-types": {
+            "name": "ember-array-modifier-types",
+            "submodules": {},
+            "classes": {
+                "ArrayModifier.ArrayFilterModifier": 1,
+                "ArrayModifier.ArrayModifier": 1,
+                "ArrayModifier.ArraySearchModifier": 1,
+                "ArrayModifier.ArraySortModifier": 1,
+                "ArrayModifier.TagObject": 1,
+                "ArrayModifier.ArrayTagSearchModifier": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 48,
+            "description": "Array modifier types"
+        }
+    },
+    "classes": {
+        "ArrayModifier.ArrayFilterGroup": {
+            "name": "ArrayModifier.ArrayFilterGroup",
+            "shortname": "ArrayModifier.ArrayFilterGroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "file": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "line": 4,
+            "description": "Array filter modifier group which has ArrayModifier.ArrayFilterModifier and ArrayModifier.ArraySearchModifier",
+            "submodule": "ember-array-modifier-groups",
+            "extends": "ArrayModifier.ArrayModifierGroup"
+        },
+        "ArrayModifier.ArrayModifierGroup": {
+            "name": "ArrayModifier.ArrayModifierGroup",
+            "shortname": "ArrayModifier.ArrayModifierGroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "line": 5,
+            "description": "Basic array modifier group.",
+            "submodule": "ember-array-modifier-groups"
+        },
+        "ArrayModifier.ArraySortGroup": {
+            "name": "ArrayModifier.ArraySortGroup",
+            "shortname": "ArrayModifier.ArraySortGroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 6,
+            "description": "Array sort modifier group.",
+            "submodule": "ember-array-modifier-groups",
+            "extends": "ArrayModifier.ArrayModifierGroup"
+        },
+        "ArrayModifier.ArrayFilterModifier": {
+            "name": "ArrayModifier.ArrayFilterModifier",
+            "shortname": "ArrayModifier.ArrayFilterModifier",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArrayFilterModifier.js",
+            "line": 3,
+            "description": "Base class for array filter, which removes/adds elements.",
+            "submodule": "ember-array-modifier-types",
+            "extends": "ArrayModifier.ArrayModifier"
+        },
+        "ArrayModifier.ArrayModifier": {
+            "name": "ArrayModifier.ArrayModifier",
+            "shortname": "ArrayModifier.ArrayModifier",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 3,
+            "description": "Base class for array modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        "ArrayModifier.ArraySearchModifier": {
+            "name": "ArrayModifier.ArraySearchModifier",
+            "shortname": "ArrayModifier.ArraySearchModifier",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 4,
+            "description": "Class to search for a string in the array elements.",
+            "submodule": "ember-array-modifier-types",
+            "extends": "ArrayModifier.ArrayFilterModifier"
+        },
+        "ArrayModifier.ArraySortModifier": {
+            "name": "ArrayModifier.ArraySortModifier",
+            "shortname": "ArrayModifier.ArraySortModifier",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 4,
+            "description": "Class to sort elements in the array.",
+            "submodule": "ember-array-modifier-types",
+            "extends": "ArrayModifier.ArrayModifier"
+        },
+        "ArrayModifier.TagObject": {
+            "name": "ArrayModifier.TagObject",
+            "shortname": "ArrayModifier.TagObject",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 5,
+            "description": "Class for a tag. Never used directly. Passed as an object to ArrayModifier.ArrayTagSearchModifier.",
+            "submodule": "ember-array-modifier-types"
+        },
+        "ArrayModifier.ArrayTagSearchModifier": {
+            "name": "ArrayModifier.ArrayTagSearchModifier",
+            "shortname": "ArrayModifier.ArrayTagSearchModifier",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types",
+            "namespace": "",
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 48,
+            "description": "Class to filter elements based on tags.",
+            "extends": "ArrayModifier.ArrayFilterModifier"
+        },
+        "ArrayModifier.ArrayModifierMixin": {
+            "name": "ArrayModifier.ArrayModifierMixin",
+            "shortname": "ArrayModifier.ArrayModifierMixin",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ember-array-modifier",
+            "namespace": "",
+            "file": "addon/ArrayModifierMixin.js",
+            "line": 8,
+            "description": "ArrayModifierMixin modifies array in \"content\" and puts it in \"arrangedContent\"."
+        }
+    },
+    "classitems": [
+        {
+            "file": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "line": 15,
+            "description": "Priority to run this modifier group",
+            "itemtype": "property",
+            "name": "priority",
+            "type": "Number",
+            "default": "2",
+            "class": "ArrayModifier.ArrayFilterGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "line": 24,
+            "description": "Method that returns whether an item can be added or not.",
+            "itemtype": "method",
+            "name": "canAdd",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "Item that is to be checked whether it can be added or not.",
+                    "type": "Class"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "ArrayModifier.ArrayFilterGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "line": 42,
+            "description": "Method called to modify an entire array. Filters the array based on canAdd method.",
+            "itemtype": "method",
+            "name": "modify",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                }
+            ],
+            "class": "ArrayModifier.ArrayFilterGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayFilterGroup.js",
+            "line": 55,
+            "description": "Method called to modify a single item. Checks canAdd and adds the item if true, else removes it.",
+            "itemtype": "method",
+            "name": "modifySingle",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                },
+                {
+                    "name": "item",
+                    "description": "The item to modify.",
+                    "type": "Instance"
+                },
+                {
+                    "name": "idx",
+                    "description": "Index of item in array.",
+                    "type": "Number"
+                }
+            ],
+            "class": "ArrayModifier.ArrayFilterGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "line": 15,
+            "description": "Array modifiers present in the group. Use object while creating.",
+            "itemtype": "property",
+            "name": "arrayModifiers",
+            "type": "Array",
+            "class": "ArrayModifier.ArrayModifierGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "line": 24,
+            "description": "Priority to run this modifier group",
+            "itemtype": "property",
+            "name": "priority",
+            "type": "Number",
+            "default": "5",
+            "class": "ArrayModifier.ArrayModifierGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "line": 34,
+            "description": "Method that returns whether an item can be added or not.",
+            "itemtype": "method",
+            "name": "canAdd",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "Item that is to be checked whether it can be added or not.",
+                    "type": "Class"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "ArrayModifier.ArrayModifierGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArrayModifierGroup.js",
+            "line": 45,
+            "description": "Method called to modify an entire array.",
+            "itemtype": "method",
+            "name": "modify",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                }
+            ],
+            "class": "ArrayModifier.ArrayModifierGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 17,
+            "description": "Priority to run this modifier group",
+            "itemtype": "property",
+            "name": "priority",
+            "type": "Number",
+            "default": "10",
+            "class": "ArrayModifier.ArraySortGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 26,
+            "description": "Compare method used in sorting of array.",
+            "itemtype": "method",
+            "name": "compare",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Any"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 53,
+            "description": "Method called to modify an entire array. Default is to sort the array.",
+            "itemtype": "method",
+            "name": "modify",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-groups/ArraySortGroup.js",
+            "line": 66,
+            "description": "Method called to modify a single item. It remove the item if already present and uses binary insert to insert the item to array.",
+            "itemtype": "method",
+            "name": "modifySingle",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                },
+                {
+                    "name": "item",
+                    "description": "The item to modify.",
+                    "type": "Instance"
+                },
+                {
+                    "name": "idx",
+                    "description": "Index of item in array.",
+                    "type": "Number"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortGroup",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-groups"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayFilterModifier.js",
+            "line": 15,
+            "description": "Method called to modify an entire array.",
+            "itemtype": "method",
+            "name": "modify",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                }
+            ],
+            "class": "ArrayModifier.ArrayFilterModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayFilterModifier.js",
+            "line": 28,
+            "description": "Method called to modify a single element.",
+            "itemtype": "method",
+            "name": "modFun",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "The item to modify.",
+                    "type": "Class"
+                },
+                {
+                    "name": "value",
+                    "description": "The value to modfiy on.",
+                    "type": "Any"
+                }
+            ],
+            "class": "ArrayModifier.ArrayFilterModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 11,
+            "description": "Type of the array modifier.",
+            "itemtype": "property",
+            "name": "type",
+            "type": "String",
+            "default": "\"basic\"",
+            "readonly": "",
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 21,
+            "description": "Array modifier group type the modifier belongs to.",
+            "itemtype": "property",
+            "name": "groupType",
+            "type": "String",
+            "default": "\"basic\"",
+            "readonly": "",
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 31,
+            "description": "Property the modifier applies on.",
+            "itemtype": "property",
+            "name": "property",
+            "type": "String",
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 39,
+            "description": "Priority to run this modifier",
+            "itemtype": "property",
+            "name": "priority",
+            "type": "Number",
+            "default": "1",
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 48,
+            "description": "Set to true if a listener on all objects in the array should be added.",
+            "itemtype": "property",
+            "name": "addObserverToAll",
+            "type": "Boolean",
+            "default": "true",
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 57,
+            "description": "Function called when observers are supposed to be added.",
+            "itemtype": "method",
+            "name": "addModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayModifier.js",
+            "line": 68,
+            "description": "Function called when observers are supposed to be removed.",
+            "itemtype": "method",
+            "name": "removeModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArrayModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 15,
+            "description": "Search string.",
+            "itemtype": "property",
+            "name": "searchString",
+            "type": "String",
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 23,
+            "description": "If set to true, all elements matching searchString will be removed, else all elements not matching searchString will be removed.",
+            "itemtype": "property",
+            "name": "negate",
+            "type": "Boolean",
+            "default": "false",
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 32,
+            "description": "Search string regex object.",
+            "itemtype": "property",
+            "name": "searchRegex",
+            "type": "RegEx",
+            "access": "private",
+            "tagname": "",
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 45,
+            "description": "Method called to modify a single element. Does a regex match with searchRegex and negates it based on negate value.",
+            "itemtype": "method",
+            "name": "modFun",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "The item to modify.",
+                    "type": "Class"
+                },
+                {
+                    "name": "value",
+                    "description": "The value to modfiy on.",
+                    "type": "Any"
+                }
+            ],
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 57,
+            "description": "Function called when observers are supposed to be added.",
+            "itemtype": "method",
+            "name": "addModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySearchModifier.js",
+            "line": 71,
+            "description": "Function called when observers are supposed to be removed.",
+            "itemtype": "method",
+            "name": "removeModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArraySearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 16,
+            "description": "Order to sort by. true for ascending, false for descending",
+            "itemtype": "property",
+            "name": "order",
+            "type": "String",
+            "default": "true",
+            "class": "ArrayModifier.ArraySortModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 25,
+            "description": "Set to true if a listener on all objects in the array should be added.",
+            "itemtype": "property",
+            "name": "addObserverToAll",
+            "type": "Boolean",
+            "default": "false",
+            "class": "ArrayModifier.ArraySortModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 34,
+            "description": "Method called to modify an entire array.",
+            "itemtype": "method",
+            "name": "modify",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "The array to modify.",
+                    "type": "Array"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 49,
+            "description": "Function called when observers are supposed to be added.",
+            "itemtype": "method",
+            "name": "addModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArraySortModifier.js",
+            "line": 61,
+            "description": "Function called when observers are supposed to be removed.",
+            "itemtype": "method",
+            "name": "removeModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArraySortModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 13,
+            "description": "Label for the tag.",
+            "itemtype": "property",
+            "name": "label",
+            "type": "String",
+            "class": "ArrayModifier.TagObject",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 21,
+            "description": "Value for the tag.",
+            "itemtype": "property",
+            "name": "val",
+            "type": "String",
+            "class": "ArrayModifier.TagObject",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 29,
+            "description": "Checked boolean.",
+            "itemtype": "property",
+            "name": "checked",
+            "type": "Boolean",
+            "default": "true",
+            "class": "ArrayModifier.TagObject",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 38,
+            "description": "If set to true, val will be not taken if checked, else val will be taken if checked.",
+            "itemtype": "property",
+            "name": "negate",
+            "type": "Boolean",
+            "default": "false",
+            "class": "ArrayModifier.TagObject",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 59,
+            "description": "Tags to filter with. Elements are ArrayModifier.TagObject instances. But passed as objects while creating.",
+            "itemtype": "property",
+            "name": "tags",
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 66,
+            "description": "Tags that are taken.",
+            "itemtype": "property",
+            "name": "selectedTags",
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 73,
+            "description": "Joiner for the tags. Can be \"or\" or \"and\".",
+            "itemtype": "property",
+            "name": "joiner",
+            "type": "String",
+            "default": "\"or\"",
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 82,
+            "description": "Method called to modify a single element.",
+            "itemtype": "method",
+            "name": "modFun",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "The item to modify.",
+                    "type": "Class"
+                },
+                {
+                    "name": "value",
+                    "description": "The value to modfiy on.",
+                    "type": "Any"
+                }
+            ],
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 99,
+            "description": "Function called when observers are supposed to be added.",
+            "itemtype": "method",
+            "name": "addModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/array-modifier-types/ArrayTagSearchModifier.js",
+            "line": 113,
+            "description": "Function called when observers are supposed to be removed.",
+            "itemtype": "method",
+            "name": "removeModifierObservers",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context to add the observer to.",
+                    "type": "Class"
+                },
+                {
+                    "name": "method",
+                    "description": "Method to be called when observer is called.",
+                    "type": "String|Function"
+                }
+            ],
+            "class": "ArrayModifier.ArrayTagSearchModifier",
+            "module": "ember-array-modifier",
+            "submodule": "ember-array-modifier-types"
+        },
+        {
+            "file": "addon/ArrayModifierMixin.js",
+            "line": 32,
+            "description": "Array mods added to the controller.",
+            "itemtype": "property",
+            "name": "arrayModifiers",
+            "type": "Array",
+            "class": "ArrayModifier.ArrayModifierMixin",
+            "module": "ember-array-modifier"
+        },
+        {
+            "file": "addon/ArrayModifierMixin.js",
+            "line": 41,
+            "description": "Array mods groups formed by arrayModifiers.",
+            "itemtype": "property",
+            "name": "arrayModifierGrps",
+            "type": "Array",
+            "readonly": "",
+            "class": "ArrayModifier.ArrayModifierMixin",
+            "module": "ember-array-modifier"
+        }
+    ],
+    "warnings": []
+}
