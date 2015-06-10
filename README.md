@@ -1,6 +1,6 @@
-# Ember-array-modifier
+# ember-array-modifier
 
-This README outlines the details of collaborating on this Ember addon.
+Docs : http://adityahegde.github.io/ember-array-modifier/
 
 ## Installation
 
