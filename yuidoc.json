@@ -1,7 +1,7 @@
 {
   "name": "ember-array-modifier",
   "description": "Array modifier module for Ember.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "options": {
     "paths": [
       "addon"

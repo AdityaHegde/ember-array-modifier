@@ -1,9 +1,10 @@
 import Ember from 'ember';
 import Application from '../../app';
-import Router from '../../router';
 import config from '../../config/environment';
+/* jshint ignore:start */
 import createArray from './createArray';
 import arrayOperation from './arrayOperation';
+/* jshint ignore:end */
 
 export default function startApp(attrs) {
   var application;

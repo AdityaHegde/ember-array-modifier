@@ -1,5 +1,4 @@
 import Ember from "ember";
-import EmberArrayModifier from "ember-array-modifier";
 
 export default Ember.Test.registerAsyncHelper('arrayOperation', function (app, assert, data) {
   andThen(function() {

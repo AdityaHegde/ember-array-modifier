@@ -1,5 +1,4 @@
 import Ember from "ember";
-import EmberArrayModifier from "ember-array-modifier";
 import { module, test } from "qunit";
 import startApp from '../helpers/start-app';
 
